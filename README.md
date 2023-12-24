@@ -34,8 +34,8 @@ driver.execute_script(
         container.insertAdjacentElement('afterBegin', el);
         setTimeout(() => {
             el.textContent = "<<<  OH , CHECK YOUR CONSOLE! >>>"}, 2500)
-        
-    """)
+"""
+)
 // Alternative for driver.
 driver.exit()
 
