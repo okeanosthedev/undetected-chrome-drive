@@ -28,6 +28,7 @@ driver.save_screenshot('nowsecure.png')
 
 
 // This executes a code that you can interact with the website you opened. Same as using console on a website to interact with it.
+
 driver.execute_script(
      """
         let container = document.querySelector('#rso');
