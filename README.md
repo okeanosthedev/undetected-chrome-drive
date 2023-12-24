@@ -40,6 +40,6 @@ driver.execute_script(
 driver.exit()
 
 I always welcome contritubers.
-Discord: __okeanos__
+Discord: `__okeanos__`
 Mail: help@uptimefactory.cf
 Github: 
