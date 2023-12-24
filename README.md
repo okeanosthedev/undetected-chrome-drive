@@ -1,4 +1,4 @@
-# Undetected-chrome-drive 3.0.0
+# Undetected-chrome-drive 3.5.0
 
 A node module coded by a module in python (https://github.com/ultrafunkamsterdam/undetected-chromedriver) implementation javascript. Chromedriver patch which does not trigger anti-bot services like Distill Network / Imperva / DataDome / Botprotect.io Automatically downloads the driver binary and patches it.
 
