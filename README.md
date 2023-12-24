@@ -21,8 +21,10 @@ driver.exit()
 Extra Usage:
 You can use these codes inside the driver.
 
+
 // This saves a screenshot of the website you are trying to reach.
 driver.save_screenshot('nowsecure.png')
+
 
 // This executes a code that you can interact with the website you opened. Same as using console on a website to interact with it.
 driver.execute_script(
@@ -36,6 +38,8 @@ driver.execute_script(
             el.textContent = "<<<  OH , CHECK YOUR CONSOLE! >>>"}, 2500)
 """
 )
+
+
 // Alternative for driver.
 driver.exit()
 
