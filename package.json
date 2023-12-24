@@ -1,0 +1,28 @@
+{
+  "name": "undetected-chrome-drive",
+  "version": "2.5.0",
+  "description": "A node module coded by a module in python (https://github.com/ultrafunkamsterdam/undetected-chromedriver) into javascript. Chromedriver patch which does not trigger anti-bot services like Distill Network / Imperva / DataDome / Botprotect.io Automatically downloads the driver binary and patches it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denene12/undetected_chromedriver.git"
+  },
+  "keywords": [
+    "chrome",
+    "driver",
+    "undetected",
+    "antiddos"
+  ],
+  "author": "Okeanos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denene12/undetected_chromedriver/issues"
+  },
+  "homepage": "https://github.com/denene12/undetected_chromedriver",
+  "dependencies": {
+    "pythonia": "^1.1.0"
+  }
+}
