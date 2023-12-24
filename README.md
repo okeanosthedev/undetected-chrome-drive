@@ -23,6 +23,7 @@ You can use these codes inside the driver.
 
 
 // This saves a screenshot of the website you are trying to reach.
+
 driver.save_screenshot('nowsecure.png')
 
 
@@ -40,7 +41,8 @@ driver.execute_script(
 )
 
 
-// Alternative for driver.
+// Alternative for driver.close().
+
 driver.exit()
 
 I always welcome contritubers.
