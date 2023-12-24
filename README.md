@@ -7,7 +7,7 @@ Python 3.6++
 NodeJs 14.x++
 
 Example Use:
-(```
+```
 const unchrome = require('undetected-chrome-drive')
 // Main usage. You need to add driver into the global variables part else it wont work. Other are your choice to add, just add if you use them. After it the other two args are needed. First is the python command for program to work. (python or python3) Second is if you want it to run headless or not. (For running headless write "true" if you don't want headless mod write "false".)
 unchrome.driver((driver, time, add) => {
@@ -20,10 +20,11 @@ time.sleep(10)
 // End the instance of the driver.
 driver.exit()
 }, "python3", "true");
-```)
+
+```
 Extra Usage:
 You can use these codes inside the driver.
-(```
+```
 
 // This saves a screenshot of the website you are trying to reach.
 
@@ -48,7 +49,7 @@ driver.execute_script(
 // Alternative for driver.close().
 
 driver.exit()
-```)
+```
 
 I always welcome contritubers.
 Discord: `__okeanos__`
