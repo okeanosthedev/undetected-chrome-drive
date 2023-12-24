@@ -1,11 +1,24 @@
-# Undetected-chrome-drive 3.5.0
+# Undetected-chrome-drive 4.0.0
 
 A node module coded by a module in python (https://github.com/ultrafunkamsterdam/undetected-chromedriver) implementation javascript. Chromedriver patch which does not trigger anti-bot services like Distill Network / Imperva / DataDome / Botprotect.io Automatically downloads the driver binary and patches it.
 
 Requirements:
 Python 3.6++
 NodeJs 14.x++
+Undetected_chromedriver 3.5.4
 
+Installation:
+```
+pip3 install undetected_chromedriver==3.5.4
+```
+or
+```
+pip install undetected_chromedriver==3.5.4
+```
+Then to install from npm
+```
+npm i undetected-chrome-drive@latest
+```
 Example Use:
 ```
 const unchrome = require('undetected-chrome-drive')
@@ -57,4 +70,4 @@ Discord: `__okeanos__`
 
 Mail: help@uptimefactory.cf
 
-Github: https://github.com/denene12/undetected_chromedriver
+Github: https://github.com/denene12/undetected-chrome-drive
