@@ -1,5 +1,5 @@
 const { python } = require("pythonia");
-module.exports = async function driver(cmds, executer, head) {
+exports.driver = async function (cmds, executer, head) {
   const unchromee = await python("./module.py");
   
   const callbackString = cmds.toString();
@@ -12,8 +12,8 @@ module.exports = async function driver(cmds, executer, head) {
   
   const lines = code_semi.split('\n');
   
-  const code = lines.filter(line => !line.trim().startsWith('add.'));
-  
+  const code_semi_raw = lines.filter(line => !line.trim().startsWith('add.'));
+  const code = code_semi_raw.filter(line => !line.trim().startsWith('/'));
   const import_matches = callbackString.match(/add\.[^\n]+/g);
   
   const import_matches_replace = import_matches.map(match => match.replace(/^add\./, 'import '));
