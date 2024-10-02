@@ -1,3 +1,5 @@
+# An update is going to come near 10-15th of October
+
 # Undetected-chrome-drive 4.3.0
 
 A node module coded by a module in python (https://github.com/ultrafunkamsterdam/undetected-chromedriver) implementation javascript. Chromedriver patch which does not trigger anti-bot services like Distill Network / Imperva / DataDome / Botprotect.io Automatically downloads the driver binary and patches it.
@@ -63,6 +65,6 @@ I always welcome contritubers.
 
 Discord: `__okeanos__`
 
-Mail: help@uptimefactory.cf
+Mail: okeanos@bladenw.com
 
 Github: https://github.com/denene12/undetected-chrome-drive
